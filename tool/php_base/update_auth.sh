@@ -15,10 +15,10 @@ else
 	echo "/${CMD_NAME}"
 fi
 
-find "${PUBLIC_HTML_DIR_PATH}/tm_ready" -type d -print | xargs chmod 705
-find "${PUBLIC_HTML_DIR_PATH}/tm_ready" -type f -print | xargs chmod 604
+find "${PUBLIC_HTML_DIR_PATH}/php_base" -type d -print | xargs chmod 705
+find "${PUBLIC_HTML_DIR_PATH}/php_base" -type f -print | xargs chmod 604
 
-find "${PUBLIC_DAT_DIR_PATH}/tm_ready" -type d -print | xargs chmod 705
-find "${PUBLIC_DAT_DIR_PATH}/tm_ready" -type f -print | xargs chmod 604
+find "${PUBLIC_DAT_DIR_PATH}/php_base" -type d -print | xargs chmod 705
+find "${PUBLIC_DAT_DIR_PATH}/php_base" -type f -print | xargs chmod 604
 
 exit 0
