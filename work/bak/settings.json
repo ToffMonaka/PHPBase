@@ -1,0 +1,17 @@
+{
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**" 
+    ],
+    "liveSassCompile.settings.includeItems": [
+        "work/css/*.scss"
+    ],
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+            "savePath": "/public_html/php_base/css"
+        }
+    ],    
+    "liveSassCompile.settings.generateMap": false
+}

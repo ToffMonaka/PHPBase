@@ -1,0 +1,5 @@
+Options -Indexes
+
+<Files ~ "^\.git*">
+	Require all denied
+</Files>
