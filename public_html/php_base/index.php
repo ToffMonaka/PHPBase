@@ -10,22 +10,22 @@
 	<meta name="robots" content="noindex,nofollow">
 
 	<link rel="icon" href="img/favicon_icon1.ico">
-	<link rel="stylesheet" href="css/main.css">
-	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" href="css/body1.css">
+	<script type="text/javascript" src="js/tml.js"></script>
 </head>
 
-<body>
-	<div id="base1">
-		<div id="header1">
+<body id="body1">
+	<div class="layout1">
+		<div id="body1_header1">
 			<div class="layout1">
-				<div id="title1">
+				<div id="body1_title1">
 					PHP ベースプロジェクト
 				</div>
 			</div>
 		</div>
-		<div id="content1">
+		<div id="body1_content1">
 		</div>
-		<div id="footer1">
+		<div id="body1_footer1">
 		</div>
 	</div>
 </body>
