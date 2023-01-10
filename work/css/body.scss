@@ -1,20 +1,20 @@
-$BLACK_COLOR1: rgb(8, 8, 8);
-$WHITE_COLOR1: rgb(252, 252, 252);
-$BACK_GROUND_COLOR1: rgb(252, 252, 252);
-$TEXT_COLOR1: rgb(8, 8, 8);
-$KEY_COLOR1: rgb(255, 165, 0);
-$KEY_TEXT_COLOR1: rgb(41, 0, 2);
-$MAIN_COLOR1: rgb(255, 207, 67);
-$SUB_COLOR1: rgb(255, 210, 128);
-$LINK_COLOR1: rgb(8, 8, 252);
-$LINK_HOVER_COLOR1: rgb(252, 8, 8);
+$BLACK_COLOR: rgb(8, 8, 8);
+$WHITE_COLOR: rgb(252, 252, 252);
+$BACK_GROUND_COLOR: rgb(252, 252, 252);
+$TEXT_COLOR: rgb(8, 8, 8);
+$KEY_COLOR: rgb(255, 165, 0);
+$KEY_TEXT_COLOR: rgb(41, 0, 2);
+$MAIN_COLOR: rgb(255, 207, 67);
+$SUB_COLOR: rgb(255, 210, 128);
+$LINK_COLOR: rgb(8, 8, 252);
+$LINK_HOVER_COLOR: rgb(252, 8, 8);
 
-#body1 {
+#body {
 	margin: 0px;
 	padding: 16px 0px;
-	background: $BACK_GROUND_COLOR1;
+	background: $BACK_GROUND_COLOR;
 	border: 0px;
-	color: $TEXT_COLOR1;
+	color: $TEXT_COLOR;
 	font: 16px/1.4 "Arial", sans-serif;
 
 	button,input,select,textarea {
@@ -39,37 +39,37 @@ $LINK_HOVER_COLOR1: rgb(252, 8, 8);
 	}
 	
 	a,a:visited {
-		color: $LINK_COLOR1;
+		color: $LINK_COLOR;
 		text-decoration: none;
 	}
 	
 	a:hover {
-		color: $LINK_HOVER_COLOR1;
+		color: $LINK_HOVER_COLOR;
 		text-decoration: underline;
 	}
 
-	> .layout1 {
+	> .layout {
 		margin: 0px 16px;
 	}
 }
 
-#body1_header1 {
+#body_header {
 	margin: 0px;
 
-	> .layout1 {
+	> .layout {
 		margin: 0px;
 	}
 }
 
-#body1_content1 {
+#body_content {
 	margin: 0px;
 }
 
-#body1_footer1 {
+#body_footer {
 	margin: 0px;
 }
 
-#body1_title1 {
+#body_title {
 	margin: 0px;
 	font-size: 32px;
 	font-weight: bold;

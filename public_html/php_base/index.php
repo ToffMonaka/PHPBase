@@ -9,23 +9,23 @@
 	<meta name="description" content="PHPのベースプロジェクトです。">
 	<meta name="robots" content="noindex,nofollow">
 
-	<link rel="icon" href="img/favicon_icon1.ico">
-	<link rel="stylesheet" href="css/body1.css">
+	<link rel="icon" href="img/favicon_icon.ico">
+	<link rel="stylesheet" href="css/body.css">
 	<script type="text/javascript" src="js/tml.js"></script>
 </head>
 
-<body id="body1">
-	<div class="layout1">
-		<div id="body1_header1">
-			<div class="layout1">
-				<div id="body1_title1">
+<body id="body">
+	<div class="layout">
+		<div id="body_header">
+			<div class="layout">
+				<div id="body_title">
 					PHP ベースプロジェクト
 				</div>
 			</div>
 		</div>
-		<div id="body1_content1">
+		<div id="body_content">
 		</div>
-		<div id="body1_footer1">
+		<div id="body_footer">
 		</div>
 	</div>
 </body>
